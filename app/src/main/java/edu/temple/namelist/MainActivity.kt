@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val spinner = findViewById<Spinner>(R.id.spinner)
         val nameTextView = findViewById<TextView>(R.id.textView)
+
         val deleteButton = findViewById<Button>(R.id.deleteButton)
 
         with (spinner) {
